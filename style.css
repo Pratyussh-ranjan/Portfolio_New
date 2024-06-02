@@ -215,6 +215,26 @@ section {
   gap: 1rem;
 }
 
+
+/* Mobile view styling */
+@media (max-width: 768px) {
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem; /* Adjust the gap as needed */
+    height: auto; /* Adjust the height for mobile view */
+  }
+
+  .profile-photo {
+    width: 300px; /* Adjust the size for mobile view */
+    height: 300px; /* Adjust the size for mobile view */
+  }
+
+  .section__text {
+    text-align: center; /* Center the text for mobile view */
+  }
+}
+
 /* ICONS */
 
 .icon {
